@@ -1,0 +1,23 @@
+.userlist {
+  margin: 0;
+  padding: 0;
+}
+.userlist li {
+  list-style-position: inside;
+  list-style-type: none;
+  /*transition: background-color 300ms linear;*/
+}
+.userlist li a {
+  color: #333;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.userlist li:hover  {
+  background-color: #eee;
+}
+.userlist li:hover a {
+  color: deeppink;
+}
+
